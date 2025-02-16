@@ -1,0 +1,54 @@
+.page {
+    margin: 20px;
+}
+.interactions {
+    text-align: center;
+}
+.table {
+    margin: 20px 0;
+}
+.table-header {
+    display: flex;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+.table-empty {
+    text-align: center;
+    font-size: 16px;
+    margin: 200px;
+}
+.table-row {
+    display: flex;
+    line-height: 24px;
+    padding: 10px;
+    white-space: nowrap;
+    background: #fff;
+    margin: 10px 0;
+    border: 1px solid #e3e3e3;
+}
+.table-header > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+}
+.table-row > span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 5px;
+}
+.button-inline {
+    border-width: 0;
+    background: transparent;
+    text-align: inherit;
+    color: #0074d9;
+    -webkit-font-smoothing: inherit;
+    padding: 0;
+    cursor: pointer;
+    font-size: inherit;
+}
+.button-active {
+    border-radius: 0;
+    border-bottom: 1px solid #38BB6C;
+}
